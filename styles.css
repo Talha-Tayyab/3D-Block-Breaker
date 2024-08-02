@@ -1,0 +1,38 @@
+
+body { margin: 0; overflow: hidden; background: linear-gradient(135deg, #1f1c2c, #928dab); color: #fff; }
+canvas { display: block; }
+#info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+#score {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+#gameOver {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    display: none;
+    text-align: center;
+}
+#resetButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #00ff00;
+    border: none;
+    cursor: pointer;
+}
